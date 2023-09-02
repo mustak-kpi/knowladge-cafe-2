@@ -91,3 +91,19 @@
     margin-bottom: 40px;
 }
 
+@media (max-width: 575px){
+    .posttitle {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 25px;
+    }
+    .postimg{
+        height: 350px;
+    }
+    .authorname {
+        font-size: 18px;
+        font-weight: 700;
+    
+    }
+    
+}
