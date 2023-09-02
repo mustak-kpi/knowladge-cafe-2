@@ -27,7 +27,7 @@ const Boady = () => {
         else {
           let newarray = [...addbookmark, post]
           setAddbookmark(newarray)
-          localStorage.setItem('posts', JSON.stringify(newarray.map(postid=>postid.id)))
+          localStorage.setItem('postid', JSON.stringify(newarray.map(postid=>postid.id)))
          
         }
         
