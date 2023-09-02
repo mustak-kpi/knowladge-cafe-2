@@ -1,0 +1,38 @@
+[
+    {"id": "1",
+      "name": "Mustak Sheikh",
+      "poststitles": "How to get your first job as a self-taught programmer",
+      "date": "Mar 14 (4 Days ago)",
+      "image": "https://images.pexels.com/photos/3772621/pexels-photo-3772621.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "readtime": "5",
+      "tag": "#programming #beginners",
+      "usericon": "./images/user1.png"
+    },
+    {"id": "2",
+      "name": "Mustak Sheikh",
+      "poststitles": "How to get your first job as a self-taught programmer",
+      "date": "Mar 14 (4 Days ago)",
+      "image": "https://images.pexels.com/photos/270632/pexels-photo-270632.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "readtime": "5",
+      "tag": "#programming #beginners",
+      "usericon": "./images/user2.png"
+    },
+    {"id": "3",
+      "name": "Mustak Sheikh",
+      "poststitles": "How to get your first job as a self-taught programmer",
+      "date": "Mar 14 (4 Days ago)",
+      "image": "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "readtime": "5",
+      "tag": "#programming #beginners",
+      "usericon": "./images/user3.png"
+    },
+    {"id": "4",
+      "name": "Mustak Sheikh",
+      "poststitles": "How to get your first job as a self-taught programmer",
+      "date": "Mar 14 (4 Days ago)",
+      "image": "https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "readtime": "5",
+      "tag": "#programming #beginners",
+      "usericon": "./images/user4.png"
+    }
+]

@@ -1,0 +1,18 @@
+.header-contane{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.header-titles img {
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
+}
+.header-titles h1{
+color: #111;
+margin: 0;
+font-family: 'Exo 2', sans-serif;
+font-size: 40px;
+font-weight: 700; 
+}

@@ -1,0 +1,28 @@
+.cart-title{
+    background: rgba(96, 71, 236, 0.10);
+    border: 2px solid #6047EC;
+    border-radius: 8px;
+}
+.cart-title h2{
+color: #6047EC;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+text-align: center;
+padding: 10px 25px;
+}
+
+.cart-Block{
+    border-radius: 8px;
+    background: rgba(17, 17, 17, 0.05);
+     width: 411px;
+     height: 1352px;
+    }
+    
+    .cart-Block h2{
+    padding: 30px;
+    color: #111;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
