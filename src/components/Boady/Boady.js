@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import './Boady.css'
 import Post from '../Post/Post';
 import Bookmarkright from '../Bookmarkright/Bookmarkright';
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Boady = () => {
     const [posts, setPosts] = useState([]);
@@ -18,7 +19,10 @@ const Boady = () => {
 
     const addToBookmark =(post)=>{  
         if (addbookmark.some((item) => item.id === post.id)) {  
-            
+            toast.warn(" Already Added This Item" ,{
+                autoClose:2000,
+                theme: 'dark'
+            })
         } 
         else {
           let newarray = [...addbookmark, post]
@@ -41,7 +45,7 @@ const Boady = () => {
                 </div>
                 <div className="bookmark-right">
                     <Bookmarkright addbookmark={addbookmark}></Bookmarkright>
-                    
+                    <ToastContainer />
                 </div>
             </div>
         </div>
