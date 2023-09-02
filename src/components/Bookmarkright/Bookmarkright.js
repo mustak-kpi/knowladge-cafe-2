@@ -23,7 +23,7 @@ const Bookmarkright = (props) => {
     return (
         <div>
             <div className="spendTime">
-                <h4>Spent time on read :  min</h4>
+                <h4>Spent time on read : {totalReadTime} min</h4>
             </div>
             <div className="bookmarks" id='bookmarks'>
                 <h3>Bookmarked Blogs : {addbookmark.length}</h3>
