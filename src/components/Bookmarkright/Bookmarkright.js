@@ -15,7 +15,8 @@ const Bookmarkright = (props) => {
     })
     const totalReadTime = time.reduce((oldtime, currenttime) => oldtime + currenttime, 0);
     
-
+   localStorage.setItem('readtime', totalReadTime);
+ 
 
     return (
         <div>
