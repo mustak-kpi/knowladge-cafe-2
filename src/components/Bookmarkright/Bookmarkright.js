@@ -15,10 +15,7 @@ const Bookmarkright = (props) => {
     })
     const totalReadTime = time.reduce((oldtime, currenttime) => oldtime + currenttime, 0);
     
-   localStorage.setItem('readtime', totalReadTime);
-    if (totalReadTime ==='0') {
-      localStorage.getItem('readtime');
-      }
+
 
     return (
         <div>
@@ -26,7 +23,7 @@ const Bookmarkright = (props) => {
                 <h4>Spent time on read :  min</h4>
             </div>
             <div className="bookmarks" id='bookmarks'>
-                <h3>Bookmarked Blogs : {addbookmark.length}</h3>
+                <h3>Bookmarked Blogs : </h3>
                 
             </div>
         </div>
